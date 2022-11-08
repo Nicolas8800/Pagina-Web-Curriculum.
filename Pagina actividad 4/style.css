@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 60vh !important;
+    background: url(Imagenes/twitter_header_photo_1.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    padding-top: -90px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
+}
+
+.title2 {
+
+    padding-top: 90px;
+    font-size: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(252, 252, 252);
+}
+
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.box .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c1c1c;
+    color: #fff;
+    text-decoration: none;
+    background: #b02732;
+    position: relative;
+    top: -25px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c1c1c;
+    color: #fff;
+    text-decoration: none;
+    background: #b02732;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: none;
+
+}
+
+.btn-home {
+    display: flex;
+}
+
+.botn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.sau {
+    padding: 70px;
+    background: #1f1d1d
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 20rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    position: relative;
+    top: 10px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #b02732;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #b02732;
+
+}
+
+.box-container .box p {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.about {
+    padding: -10px;
+    background: #171717;
+    background: url(Imagenes/pngtree-red-and-black-abstract-background-with-triangle-shape-image_406402.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+.contact {
+    padding-top: -50px;
+    background: #1f1d1d;
+    padding-bottom: 0;
+}
+
+
+.contact .box {
+
+    height: 20rem;
+    width: 20rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    position: relative;
+    top: -300px;
+    bottom: 0px;
+    right: 0px;
+    left: 200px;
+}
+
+.box p {
+    padding: 0px;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.Imagen {
+
+    width: 18rem;
+    height: 18rem;
+    border-radius: 15px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 200px;
+    left: 0x;
+
+}
+.Imagen2 {
+
+    width: 18rem;
+    height: 18rem;
+    border-radius: 15px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0x;
+
+}
+
+.curriculum {
+    height: 170vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sau2 {
+    padding: 90px;
+    background: #1f1d1d
+}
+
+.vitae {
+    padding-top: -90px;
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: rgb(126, 3, 3);
+}
+
+.box-container1 .box1 {
+    height: 20rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: -400px;
+
+}
+
+.box-container1 .box1 i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #b02732;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+
+.box1 p {
+    padding: 0px;
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.box-container1 .box2 {
+    height: 20rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    position: relative;
+    top: -220px;
+    bottom: 0px;
+    right: 0px;
+    left: 400px;
+
+}
+
+
+.box-container1 .box3 {
+    height: 20rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    position: relative;
+    top: -220px;
+    bottom: 0px;
+    right: 0px;
+    left: 400px;
+
+}
+
+.box-container1 .box4 {
+    height: 20rem;
+    width: 30rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0 .1rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+    position: relative;
+    top: 180px;
+    bottom: 0px;
+    right: 0px;
+    left: -560px;
+
+}
+
+.box-container1 .box{
+    padding: 8px;
+    font-size: 14px;
+}
+
+.box-container1 .box1 h3 {
+    font-size: 20px;
+    color: #b02732;
+
+}
